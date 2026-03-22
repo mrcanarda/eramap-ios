@@ -1,0 +1,185 @@
+//
+//  events.swift
+//  EraMap
+//
+//  Created by Can Arda on 19.03.26.
+//
+
+[
+  {
+    "id": "v1",
+    "title": "Lindisfarne Raid",
+    "description": "The Viking raid on Lindisfarne monastery marked the beginning of the Viking Age in Britain. Norse warriors descended on the holy island, shocking the Christian world.",
+    "year": 793,
+    "era": "viking",
+    "latitude": 55.6818,
+    "longitude": -1.7998,
+    "imageName": null,
+    "significance": 3
+  },
+  {
+    "id": "v2",
+    "title": "Siege of Paris",
+    "description": "A Viking fleet of over 700 ships sailed up the Seine and besieged Paris for nearly a year, extracting a massive ransom from the Frankish king.",
+    "year": 885,
+    "era": "viking",
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "imageName": null,
+    "significance": 2
+  },
+  {
+    "id": "v3",
+    "title": "Battle of Stamford Bridge",
+    "description": "King Harald Hardrada of Norway was defeated by Harold Godwinson of England, effectively ending the Viking Age of invasion.",
+    "year": 1066,
+    "era": "viking",
+    "latitude": 53.9997,
+    "longitude": -0.9111,
+    "imageName": null,
+    "significance": 3
+  },
+  {
+    "id": "v4",
+    "title": "Leif Erikson reaches Vinland",
+    "description": "Norse explorer Leif Erikson became the first European to reach North America, landing at a place he called Vinland.",
+    "year": 1000,
+    "era": "viking",
+    "latitude": 51.6,
+    "longitude": -55.5,
+    "imageName": null,
+    "significance": 2
+  },
+  {
+    "id": "o1",
+    "title": "Foundation of the Ottoman Empire",
+    "description": "Osman I declared independence from the Seljuk Sultanate of Rum, establishing the Ottoman dynasty that would last over 600 years.",
+    "year": 1299,
+    "era": "ottoman",
+    "latitude": 39.7667,
+    "longitude": 30.5167,
+    "imageName": null,
+    "significance": 3
+  },
+  {
+    "id": "o2",
+    "title": "Fall of Constantinople",
+    "description": "Sultan Mehmed II conquered Constantinople, ending the Byzantine Empire and transforming the city into the Ottoman capital Istanbul.",
+    "year": 1453,
+    "era": "ottoman",
+    "latitude": 41.0082,
+    "longitude": 28.9784,
+    "imageName": null,
+    "significance": 3
+  },
+  {
+    "id": "o3",
+    "title": "Battle of Mohács",
+    "description": "The Ottomans under Suleiman the Magnificent defeated the Kingdom of Hungary, opening the way for Ottoman expansion into Central Europe.",
+    "year": 1526,
+    "era": "ottoman",
+    "latitude": 45.9833,
+    "longitude": 18.6833,
+    "imageName": null,
+    "significance": 2
+  },
+  {
+    "id": "o4",
+    "title": "Siege of Vienna",
+    "description": "The Ottoman army led by Kara Mustafa Pasha besieged Vienna but was repelled by a combined Christian force, marking the turning point of Ottoman expansion in Europe.",
+    "year": 1683,
+    "era": "ottoman",
+    "latitude": 48.2082,
+    "longitude": 16.3738,
+    "imageName": null,
+    "significance": 3
+  },
+  {
+    "id": "w1",
+    "title": "Invasion of Poland",
+    "description": "Germany invaded Poland on September 1, 1939, triggering declarations of war from Britain and France and beginning World War II.",
+    "year": 1939,
+    "era": "wwii",
+    "latitude": 52.2297,
+    "longitude": 21.0122,
+    "imageName": null,
+    "significance": 3
+  },
+  {
+    "id": "w2",
+    "title": "Battle of Stalingrad",
+    "description": "One of the bloodiest battles in human history. The Soviet defense of Stalingrad turned the tide of the war on the Eastern Front.",
+    "year": 1942,
+    "era": "wwii",
+    "latitude": 48.7194,
+    "longitude": 44.5018,
+    "imageName": null,
+    "significance": 3
+  },
+  {
+    "id": "w3",
+    "title": "D-Day — Normandy Landings",
+    "description": "Allied forces launched the largest seaborne invasion in history on the beaches of Normandy, beginning the liberation of Western Europe.",
+    "year": 1944,
+    "era": "wwii",
+    "latitude": 49.3667,
+    "longitude": -0.9,
+    "imageName": null,
+    "significance": 3
+  },
+  {
+    "id": "w4",
+    "title": "Battle of Midway",
+    "description": "A decisive naval battle in the Pacific where the United States defeated Japan, destroying four Japanese carriers and shifting the balance of the Pacific War.",
+    "year": 1942,
+    "era": "wwii",
+    "latitude": 28.2,
+    "longitude": -177.35,
+    "imageName": null,
+    "significance": 2
+  },
+  {
+    "id": "r1",
+    "title": "Founding of Rome",
+    "description": "According to Roman tradition, Romulus founded the city of Rome, beginning one of history's greatest civilizations.",
+    "year": -753,
+    "era": "rome",
+    "latitude": 41.9028,
+    "longitude": 12.4964,
+    "imageName": null,
+    "significance": 3
+  },
+  {
+    "id": "r2",
+    "title": "Battle of Cannae",
+    "description": "Hannibal's Carthaginian army inflicted one of Rome's worst defeats, killing over 50,000 Roman soldiers. The battle is still studied in military academies today.",
+    "year": -216,
+    "era": "rome",
+    "latitude": 41.3072,
+    "longitude": 16.1318,
+    "imageName": null,
+    "significance": 3
+  },
+  {
+    "id": "r3",
+    "title": "Caesar crosses the Rubicon",
+    "description": "Julius Caesar led his army across the Rubicon river, an act of treason that triggered a civil war and ultimately led to the end of the Roman Republic.",
+    "year": -49,
+    "era": "rome",
+    "latitude": 44.1358,
+    "longitude": 12.2322,
+    "imageName": null,
+    "significance": 2
+  },
+  {
+    "id": "r4",
+    "title": "Fall of the Western Roman Empire",
+    "description": "Romulus Augustulus, the last emperor of the Western Roman Empire, was deposed by the Germanic chieftain Odoacer, ending 1,200 years of Roman rule in the west.",
+    "year": 476,
+    "era": "rome",
+    "latitude": 41.9028,
+    "longitude": 12.4964,
+    "imageName": null,
+    "significance": 3
+  }
+]
