@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		211D90202F7F33F700C37206 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 211D901F2F7F33F700C37206 /* FirebaseCore */; };
+		211D90222F7F36F700C37206 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 211D90212F7F36F700C37206 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		211D8FE42F7F2EA400C37206 /* EraMap.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = EraMap.xcodeproj; sourceTree = "<group>"; };
 		21CF05E32F6C9F3D007218A2 /* EraMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EraMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +29,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				211D90202F7F33F700C37206 /* FirebaseCore in Frameworks */,
+				211D90222F7F36F700C37206 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +44,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		211D901E2F7F33F700C37206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		21CF05DA2F6C9F3D007218A2 = {
 			isa = PBXGroup;
 			children = (
 				21CF05E52F6C9F3D007218A2 /* EraMap */,
+				211D901E2F7F33F700C37206 /* Frameworks */,
 				21CF05E42F6C9F3D007218A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +88,8 @@
 			);
 			name = EraMap;
 			packageProductDependencies = (
+				211D901F2F7F33F700C37206 /* FirebaseCore */,
+				211D90212F7F36F700C37206 /* FirebaseFirestore */,
 			);
 			productName = EraMap;
 			productReference = 21CF05E32F6C9F3D007218A2 /* EraMap.app */;
@@ -358,6 +375,19 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		211D901F2F7F33F700C37206 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21CF05F12F6C9F99007218A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		211D90212F7F36F700C37206 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21CF05F12F6C9F99007218A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 21CF05DB2F6C9F3D007218A2 /* Project object */;
 }
