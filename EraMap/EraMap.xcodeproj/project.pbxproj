@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		211D8FE42F7F2EA400C37206 /* EraMap.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = EraMap.xcodeproj; sourceTree = "<group>"; };
 		21CF05E32F6C9F3D007218A2 /* EraMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EraMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -30,13 +29,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		211D8FE52F7F2EA400C37206 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		21CF05DA2F6C9F3D007218A2 = {
 			isa = PBXGroup;
 			children = (
@@ -108,12 +100,6 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 21CF05E42F6C9F3D007218A2 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 211D8FE52F7F2EA400C37206 /* Products */;
-					ProjectRef = 211D8FE42F7F2EA400C37206 /* EraMap.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				21CF05E22F6C9F3D007218A2 /* EraMap */,
