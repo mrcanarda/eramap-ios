@@ -54,6 +54,42 @@ struct MapView: View {
                     .transition(.move(edge: .bottom).combined(with: .opacity))
                 }
             }
+            
+            // MARK: - Zoom Controls
+            VStack(spacing: 8) {
+                Button {
+                    withAnimation {
+                        viewModel.region.span = MKCoordinateSpan(
+                            latitudeDelta: max(viewModel.region.span.latitudeDelta / 2, 0.01),
+                            longitudeDelta: max(viewModel.region.span.longitudeDelta / 2, 0.01)
+                        )
+                    }
+                } label: {
+                    Image(systemName: "plus")
+                        .font(.system(size: 18, weight: .medium))
+                        .frame(width: 44, height: 44)
+                        .background(.ultraThinMaterial)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                }
+                
+                Button {
+                    withAnimation {
+                        viewModel.region.span = MKCoordinateSpan(
+                            latitudeDelta: min(viewModel.region.span.latitudeDelta * 2, 120),
+                            longitudeDelta: min(viewModel.region.span.longitudeDelta * 2, 120)
+                        )
+                    }
+                } label: {
+                    Image(systemName: "minus")
+                        .font(.system(size: 18, weight: .medium))
+                        .frame(width: 44, height: 44)
+                        .background(.ultraThinMaterial)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                }
+            }
+            .foregroundColor(.primary)
+            .padding(12)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
         }
         .ignoresSafeArea(.keyboard)
     }
